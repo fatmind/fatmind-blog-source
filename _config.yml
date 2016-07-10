@@ -84,5 +84,5 @@ archive_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/pinggod/pinggod.com
-  branch: gh-pages
+  repository: https://git.coding.net/fatmind/fatmind.git
+  branch: gitcafe-pages
