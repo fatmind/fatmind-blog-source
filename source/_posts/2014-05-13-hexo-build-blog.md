@@ -1,10 +1,10 @@
-title: 入手hexo初尝试[整理帖]
+title: 入手hexo初尝试
 date: 2014-05-13 14:43:49
 ---
 
 在mac电脑上，重新搭hexo环境，更新一遍。
 
-#####1.nvm和node
+##### 1.nvm和node
 >强烈推荐brew，用于管理非mac软件，如nginx等
 
 - Node Version Manager - Simple bash script to manage multiple active node.js versions，首先安装 brew install nvm
@@ -18,21 +18,23 @@ date: 2014-05-13 14:43:49
 
 <!-- more -->
 
-#####2.hexo
-https://hexo.io/docs/index.html
+##### 2.hexo安装
+npm install -g hexo-cli，https://hexo.io/docs/index.html
 
-#####3.找主题
+
+##### 3.找主题
 https://hexo.io/themes/
-有各种风格，找到合适自己的，推荐 https://github.com/pinggod/hexo-theme-apollo；同时fork一份，方便后续自己做定制化
+有各种风格，找到合适自己的，推荐 https://github.com/pinggod/hexo-theme-apollo
+同时fork一份，方便后续自己做定制化
 
-#####4.运行
+##### 4.运行
 - 配置_config.yml：对应主题会有实际博客，一般大家都会托管到github仓库，找到源码找复制一份，最节省时间
 - hexo _command_，跑起来看一看
 - 内容上传github，方便保存
 - 在国内找一家提供pages服务，免费的静态网页托管
 - 可选：绑定域名
 
----
+$------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 > 以下是老版本，2016-07-10 中午 修改
 
