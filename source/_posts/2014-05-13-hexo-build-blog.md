@@ -1,7 +1,40 @@
 title: 入手hexo初尝试[整理帖]
 date: 2014-05-13 14:43:49
-tags:
 ---
+
+在mac电脑上，重新搭hexo环境，更新一遍。
+
+#####1.nvm和node
+>强烈推荐brew，用于管理非mac软件，如nginx等
+
+- Node Version Manager - Simple bash script to manage multiple active node.js versions，首先安装 brew install nvm
+
+- 查看当前stable版本，nvm ls-remote
+如安装6.0.0以上版本，运行hexo出现编译错误：Set must not pass in non-primitive values，https://github.com/nodejs/node/issues/6216
+完全删除重新安装
+>完全删除node
+>1.手动安装：https://github.com/jesseyu/uninstallNodejs/blob/master/uninstallNodejs.sh
+>2.nvm管理：切换到其它版本
+
+<!-- more -->
+
+#####2.hexo
+https://hexo.io/docs/index.html
+
+#####3.找主题
+https://hexo.io/themes/
+有各种风格，找到合适自己的，推荐 https://github.com/pinggod/hexo-theme-apollo；同时fork一份，方便后续自己做定制化
+
+#####4.运行
+- 配置_config.yml：对应主题会有实际博客，一般大家都会托管到github仓库，找到源码找复制一份，最节省时间
+- hexo _command_，跑起来看一看
+- 内容上传github，方便保存
+- 在国内找一家提供pages服务，免费的静态网页托管
+- 可选：绑定域名
+
+---
+
+> 以下是老版本，2016-07-10 中午 修改
 
 1. 安装nodejs（0.12.0）
 Windows下有msi，且已集成npm，在 %nodejs_home%/node_modules 目录。
