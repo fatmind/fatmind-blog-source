@@ -1,9 +1,7 @@
-title: time_wait_optimize
+title: 一次压测偶遇time_wait
 date: 2016-07-10 08:14:50
-tags:
 ---
 
-hello world,
-I like this world.
+hello world, I like this world.
 
 <!-- more -->

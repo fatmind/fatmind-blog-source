@@ -1,10 +1,11 @@
 title: binlog与redolog纠结
 date: 2016-02-16 20:36:44
-tags:
 ---
 
->在很长一段时间内，一直分不清楚binlog与redolog、undolog有什么差异。春节读过[MySql技术内幕]，先来梳理下binlog与redolog。
+在很长一段时间内，一直分不清楚binlog与redolog、undolog有什么差异。春节读过[MySql技术内幕]，先来梳理下binlog与redolog。
 下面计划：redolog详解、redolog与undolog、mvcc实现原理。
+
+<!-- more -->
 
 #####一、结论
 
