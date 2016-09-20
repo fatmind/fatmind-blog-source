@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: PINGGOD
+title: FATMIND
 subtitle:
 description: 三年不翅，将以长羽翼；不飞不鸣，将以观民则。
 author: Sean Sun
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://pinggod.com
+url: http://fatmind.coding.me/
 root: /
 permalink: :year/:title/
 permalink_defaults:
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
