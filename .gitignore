@@ -6,3 +6,4 @@ public/
 scaffolds/
 themes/
 .deploy_git/
+*.plist
