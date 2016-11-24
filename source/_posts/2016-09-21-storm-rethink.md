@@ -13,11 +13,11 @@ tags:
 Apache Storm is a free and open source distributed realtime computation system. Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing. Storm is simple, can be used with any programming language, and is a lot of fun to use!
 
 1.逻辑结构
-Streams、spout、bolt、group -> topology
+Streams、spout、bolt、group -\> topology
 
 2.StreamId作用
 Stream是一种抽象，想象下源源不断的水流，从bolt角度去看是同样道理，A应该接受那个流，StreamId就是给这个流起个名字，当构建topology时，bolt就可以声明我要处理那个流。
-默认设置DEFAULT_STREAM_ID，当出现水流分拆，如：Different bolt, different tuple 例子
+默认设置DEFAULT\_STREAM\_ID，当出现水流分拆，如：Different bolt, different tuple 例子
 https://github.com/alibaba/jstorm/wiki/stream-split-merge#different-bolt-different-tuple
 
 3.worker与executor与task
@@ -25,7 +25,7 @@ http://storm.apache.org/releases/1.0.2/Understanding-the-parallelism-of-a-Storm-
 没有那篇文章比这个更清楚，五星推荐
 
 4.物理结构
-![部署结构](http://www.ituring.com.cn/figures/2015/Storm/03.d01z.001.png)
+![部署结构][image-1]
 a、nimbus：任务调度节点，负责topology提交、任务分配、失败处理等
 b、supervisor：实际执行任务节点
 c、zookeeper：存储分配信息和supervisor节点状态
@@ -88,3 +88,4 @@ nimbus和supervisor后台进程是设计成快速失败（出现异常则自毁�
 ##### 十、与Hadoop比较
 
 
+[image-1]:	http://www.ituring.com.cn/figures/2015/Storm/03.d01z.001.png
